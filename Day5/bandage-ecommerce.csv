@@ -1,0 +1,7 @@
+﻿Test Case ID,Test Case Description,Test Steps Taken,Expected Result,Actual Result,Status,Security Level,Remarks
+TC001,Viewing the product listing page,Click on shop button on any product,It should display the further details of the product,It show further detail of product with description,Passed,Low,No issues found
+TC002,Modify the Product ID,Changing the product ID from URL,Show the error message,Show the error message,Passed,Low,No issues found
+TC003,Checkout functionality,Select the product and add it to the cart., It redirects to the add-to-cart item with product details, It redirects to the add-to-cart item with product details,Passed,Low,No issues found
+TC004,Changing Product Quantity On Add To Cart Page,On Add To Cart page with the specific product and click on up arrow button,It should increase the product quantity and total price accordingly,It is perfectly Modifying the product total quantity and total bill price accordingly,Passed,Medium,No issues found
+TC005,Remove the product,Remove the product from add to cart,Remove the product from add to cart ,Remove the product from add to cart ,Passed,Medium,No issues found
+TC006,Remove Items from the Cart after Checkout,"On Successful Checkout and order confirmation, No Products Should Be In the Cart Button",No Products Were in the Cart Icon button,Cart Page Showing Items Selected,Passed,Medium,No issues found
